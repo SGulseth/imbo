@@ -49,6 +49,7 @@ class ResponseFormatter implements ListenerInterface {
         'gif'  => 'image/gif',
         'jpg'  => 'image/jpeg',
         'png'  => 'image/png',
+        'svg'  => 'image/svg+xml'
     ];
 
     /**
@@ -63,6 +64,7 @@ class ResponseFormatter implements ListenerInterface {
         'image/gif'        => 'gif',
         'image/png'        => 'png',
         'image/jpeg'       => 'jpg',
+        'image/svg+xml'    => 'svg'
     ];
 
     /**
@@ -92,6 +94,7 @@ class ResponseFormatter implements ListenerInterface {
             'image/jpeg',
             'image/png',
             'image/gif',
+            'image/svg+xml'
         ],
     ];
 

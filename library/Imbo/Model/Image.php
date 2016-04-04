@@ -28,6 +28,7 @@ class Image implements ModelInterface {
         'image/png'  => 'png',
         'image/jpeg' => 'jpg',
         'image/gif'  => 'gif',
+        'image/svg+xml' => 'svg'
     ];
 
     /**
